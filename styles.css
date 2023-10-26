@@ -1,0 +1,130 @@
+body{
+    font-family: "Montserrat";
+}
+
+h1{
+    font-family: "Monstserrat-Black";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h2{
+    font-family: "Monstserrat-bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: "Montserrat-Bold"; 
+}
+#title{
+    background-color: rgb(242, 90, 90);
+    color:aliceblue;
+}
+.container-fluid
+{
+ padding: 3% 15% 12%;
+
+}
+
+
+p{
+    color:rgb(109, 107, 107);
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "ubantu";
+    font-size: 2.5rem;
+    color: aliceblue;
+    font-weight: bold;
+}
+.nav-item{
+    padding:0 18px;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+.title-image{
+    width: 60%;
+    margin-top: 0%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color:rgb(235, 85, 85);
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: rgb(241, 156, 156);
+}
+
+#testimonials{
+    
+    text-align: center;
+    background-color: rgb(235, 85, 85);
+    color:aliceblue;
+}
+.carousel-item {
+ padding: 7% 15%;
+}
+.testo-img{
+    width:10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: rgb(235, 85, 85) ;
+    text-align: center;
+}
+.logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    padding: 10px;
+}
+.pricingc{
+    padding: 3% 2%;
+}
+
+#cta{
+    background-color: rgb(234, 98, 77);
+    color:#fff;
+    padding: 7% 15%;
+    text-align: center;
+
+}
+.cta-heading{
+    font-family: "Monstserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5rem;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.flogo
+{
+    margin: 20px 10px;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0deg);
+    }
+}
